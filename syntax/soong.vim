@@ -32,3 +32,5 @@ hi def link SoongString String
 hi def link SoongModuleKey Label
 hi def link SoongVariable Normal
 hi def link SoongDictKey Normal
+
+let b:current_syntax='soong'
