@@ -14,3 +14,4 @@ Plug 'cherrry/soong.vim'
 
 * Basic highlighting.
 * [NERD Commenter](https://github.com/preservim/nerdcommenter) extension.
+* [vim-codefmt](https://github.com/google/vim-codefmt) integration.
