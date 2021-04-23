@@ -1,13 +1,6 @@
-if !exists('*maktaba#plugin#Detect')
-  finish
-endif
+" Codefmt integration: defines bpfmt formatter.
 
-call maktaba#plugin#Detect()
-if !exists('g:installed_codefmt')
-  finish
-endif
-
-function! codefmt#bpfmt#GetFormatter() abort
+function! soong#bpfmt#GetFormatter() abort
   let l:formatter = {'name': 'bpfmt'}
 
   function l:formatter.IsAvailable() abort
